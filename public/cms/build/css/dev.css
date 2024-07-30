@@ -1,0 +1,64 @@
+/** ERROR **/
+p.bg-danger {
+    padding: 10px !important;
+}
+ul.error_msg {
+    list-style: none;
+    background-color: #f2dede;
+    line-height: 20px;
+    padding: 10px;
+}
+ul.error_msg li {
+	font-weight: bold;
+}
+/** add class error for select2 **/
+div.has-error span.select2-selection--single {
+	border-color:#a94442;
+} 
+.btn-add span.glyphicon {
+	color: #FFF;
+}
+
+/** Custom background-color paginate **/
+ul#custom-pagination li.active a {
+    background-color: #26B99A;
+    border-color: #26B99A;
+}
+
+/** For Tag **/
+div.item-tag-warp {
+    padding-top: 8px;
+}
+div.item-tag-warp div {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+span.label-tag {
+    vertical-align: middle;
+    background-color: #26B99A;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+span.remove-tag {
+    cursor: pointer;
+}
+
+/** icon clear image **/
+div.wrapper-image {
+    display: inline-block;
+    position: relative;
+}
+div.wrapper-image span.glyphicon {
+    position: absolute;
+    top: -2%;
+    right:0%;
+    cursor: pointer;
+    display: none;
+}
+div.wrapper-image:hover span.glyphicon {
+    display: block;
+}
+
+.width_50 {
+    width: 50%;
+}
